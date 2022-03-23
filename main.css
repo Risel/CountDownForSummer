@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Mono', monospace;
+    margin: 0;
+    background-image: url("sunset.jpg");
+    background-size:cover;
+    background-position: center center;
+    min-height: 100vh;
+    color:floralwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 100;
+}
+h1{
+    font-size: 3rem;
+    margin-top: -4rem;
+}
+.countdownContainer{
+    display: flex;
+}
+.bigText {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdownText{
+    text-align: center;
+}
